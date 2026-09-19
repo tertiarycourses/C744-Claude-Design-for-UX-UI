@@ -1,0 +1,4 @@
+participant,task_success,time_seconds,critical_errors,help_requests,confidence,observation
+P1,yes,72,0,0,4,Noticed conflict and recovered
+P2,no,118,1,1,2,Missed error message
+P3,yes,81,0,0,4,Used keyboard successfully

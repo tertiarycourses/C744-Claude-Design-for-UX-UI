@@ -1,0 +1,18 @@
+:root {
+  --color-ink: #161b26;
+  --color-muted: #5b6372;
+  --color-surface: #f5f8fc;
+  --color-action: #724cd6;
+  --color-success: #108a73;
+  --color-warning: #c77600;
+  --color-error: #c2413a;
+  --color-focus: #1f6feb;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --radius-control: 8px;
+  --radius-card: 12px;
+  font-family: Arial, sans-serif;
+}

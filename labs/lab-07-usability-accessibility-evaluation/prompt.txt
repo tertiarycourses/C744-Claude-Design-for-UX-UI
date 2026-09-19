@@ -1,0 +1,8 @@
+Goal: test record, prioritised findings and before/after design checkpoint
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: Evaluate the prototype with a realistic task, heuristic review and accessibility checks, then perform one evidence-led iteration.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: Metrics defined before testing; Findings cite evidence; Accessibility covers states; Retest uses the same task
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

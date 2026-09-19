@@ -1,0 +1,212 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
+>>
+endobj
+2 0 obj
+<<
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
+>>
+endobj
+3 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+4 0 obj
+<<
+/Length 4534
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7.5 Tf 9 TL ET
+.356863 .388235 .447059 rg
+BT 1 0 0 1 208.4215 28.34646 Tm (Claude Design for UX/UI \267 C744 \267 Lab 7 \267 Page 1) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 769.3701 cm
+q
+.086275 .105882 .14902 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 25.09346 0 Td (Lab 7 \227 Usability and Accessibility Evaluation) Tj T* -25.09346 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.35433 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sample prompts and code \267 A5 \267 LO3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 739.3701 cm
+Q
+q
+1 0 0 1 51.35433 715.3701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (prompt.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 572.3701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 130.4 Tm /F3 7.6 Tf 9.2 TL (Goal: test record, prioritised findings and before/after design checkpoint) Tj T* (Audience: Adults using a community wellness service, including users with varied digital confidence and) Tj T* (  accessibility needs.) Tj T* (Context: Evaluate the prototype with a realistic task, heuristic review and accessibility checks, then) Tj T* (  perform one evidence-led iteration.) Tj T* (Required content: Use realistic service names, appointment times, success, empty, loading, permission and) Tj T* (  error states.) Tj T* (Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum) Tj T* (  targets and strong contrast.) Tj T* (Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on) Tj T* (  recoverable errors.) Tj T* (Acceptance: Metrics defined before testing; Findings cite evidence; Accessibility covers states; Retest uses) Tj T* (  the same task) Tj T* (Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence) Tj T* (  requested in the README.) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 564.3701 cm
+Q
+q
+1 0 0 1 51.35433 540.3701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (test-script.md) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 470.9701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 56.8 Tm /F3 7.6 Tf 9.2 TL (# Test script) Tj T*  T* (Task: Book a counselling appointment for the earliest available afternoon time.) Tj T*  T* (Metrics: task success, time, critical errors, help requests, confidence 1\2265, keyboard completion.) Tj T*  T* (Facilitator: Do not explain the interface. Ask neutral follow-ups after the task.) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 462.9701 cm
+Q
+q
+1 0 0 1 51.35433 438.9701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (results.csv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 397.1701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 29.2 Tm /F3 7.6 Tf 9.2 TL (participant,task_success,time_seconds,critical_errors,help_requests,confidence,observation) Tj T* (P1,yes,72,0,0,4,Noticed conflict and recovered) Tj T* (P2,no,118,1,1,2,Missed error message) Tj T* (P3,yes,81,0,0,4,Used keyboard successfully) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 389.1701 cm
+Q
+q
+1 0 0 1 51.35433 365.1701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (accessibility-check.js) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 231.3701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 121.2 Tm /F3 7.6 Tf 9.2 TL (// Run in the browser console on the prototype.) Tj T* (const issues = [];) Tj T* (document.querySelectorAll\('button, input, select, a[href]'\).forEach\(\(el\) => {) Tj T* (  const style = getComputedStyle\(el\);) Tj T* (  const rect = el.getBoundingClientRect\(\);) Tj T* (  if \(rect.width < 44 || rect.height < 44\) issues.push\({type:'target-size',) Tj T* (    element:el.outerHTML.slice\(0,80\)}\);) Tj T* (  if \(style.outlineStyle === 'none'\) issues.push\({type:'verify-focus-visible',) Tj T* (    element:el.outerHTML.slice\(0,80\)}\);) Tj T* (}\);) Tj T* (document.querySelectorAll\('input,select'\).forEach\(\(el\) => {) Tj T* (  if \(!el.labels?.length\) issues.push\({type:'missing-label', id:el.id}\);) Tj T* (}\);) Tj T* (console.table\(issues\);) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 223.3701 cm
+Q
+q
+1 0 0 1 51.35433 199.3701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (iteration-log.md) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 120.7701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 66 Tm /F3 7.6 Tf 9.2 TL (# Iteration log) Tj T*  T* (Evidence:) Tj T* (Hypothesis:) Tj T* (Change:) Tj T* (Expected result:) Tj T* (Retest result:) Tj T* (Decision:) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 112.7701 cm
+Q
+ 
+
+endstream
+endobj
+5 0 obj
+<<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Author (\050anonymous\051)
+/CreationDate (D\07220260823144919\05308\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220260823144919\05308\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (\050anonymous\051)
+/Trapped /False
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000142 00000 n 
+0000000341 00000 n 
+0000004927 00000 n 
+0000004978 00000 n 
+0000005085 00000 n 
+0000005197 00000 n 
+0000005302 00000 n 
+trailer
+<<
+/Size 10
+/Root 1 0 R
+/Info 9 0 R
+/ID [ <68c303d6ca48fb1bf3c0a9bb9cfede3b> <68c303d6ca48fb1bf3c0a9bb9cfede3b> ]
+>>
+startxref
+5626
+%%EOF

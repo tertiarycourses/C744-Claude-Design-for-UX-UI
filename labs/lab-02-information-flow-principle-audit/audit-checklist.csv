@@ -1,0 +1,4 @@
+principle,screen_or_state,evidence,severity,recommendation,verification
+Clarity,Booking form,Primary action is ambiguous,high,Use outcome-specific label,5-second scan
+Accessibility,Error state,Color is the only cue,high,Add icon and text,Keyboard and contrast check
+Feedback,Submission,No progress status,medium,Show saving then result,State transition review

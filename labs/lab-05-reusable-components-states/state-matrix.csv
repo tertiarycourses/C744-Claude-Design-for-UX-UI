@@ -1,0 +1,4 @@
+component,default,hover,focus,loading,disabled,error
+Button,yes,yes,yes,yes,yes,n/a
+Field,yes,n/a,yes,n/a,yes,yes
+Card,yes,yes,focus-within,loading,n/a,error

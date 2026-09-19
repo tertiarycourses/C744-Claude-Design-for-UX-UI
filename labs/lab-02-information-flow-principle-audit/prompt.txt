@@ -1,0 +1,8 @@
+Goal: complete user flow with exception states and a prioritised UI audit
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: Map the wellness appointment task and inspect a flawed flow against clarity, hierarchy, consistency, accessibility and feedback.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: Flow includes success and recovery; Every issue names a principle; Severity connects to task impact; Recommendations are testable
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

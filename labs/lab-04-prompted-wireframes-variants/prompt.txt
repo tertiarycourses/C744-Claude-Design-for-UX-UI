@@ -1,0 +1,8 @@
+Goal: low-fidelity responsive wireframes and a documented variant decision
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: Generate a four-screen wellness booking flow, then compare two structurally different directions.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: All required screens appear; Real content replaces lorem ipsum; Variants differ structurally; Selection cites criteria
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

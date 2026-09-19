@@ -1,0 +1,8 @@
+Goal: research-backed product brief, required-function list and measurable success criteria
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: A neighbourhood wellness service needs a mobile experience for daily support and appointment booking.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: Names a primary user and job; Separates evidence from assumptions; Lists essential functions; Defines observable success
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

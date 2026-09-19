@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Community Wellness Booking</title><link rel="stylesheet" href="styles.css">
+<main class="app">
+  <header><p class="eyebrow">Community Wellness</p><h1>Book an appointment</h1><p id="status" role="status">Choose a service and time.</p></header>
+  <form id="booking" novalidate>
+    <div class="field"><label for="service">Service</label><select id="service" required><option value="">Choose a service</option><option>Counselling</option><option>Nutrition consultation</option><option>Wellness check</option></select></div>
+    <div class="field"><label for="time">Time</label><select id="time" required><option value="">Choose a time</option><option>10:00 AM</option><option>2:30 PM</option><option>4:00 PM</option></select></div>
+    <div id="error" class="notice notice--error" role="alert" hidden></div>
+    <button class="button button--primary" type="submit">Confirm booking</button>
+  </form>
+  <section id="confirmation" class="card" hidden><h2>Booking confirmed</h2><p>Your appointment has been saved.</p><button id="reset" class="button button--secondary">Book another</button></section>
+</main><script src="app.js"></script>
+</html>

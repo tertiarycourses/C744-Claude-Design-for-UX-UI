@@ -1,0 +1,8 @@
+Goal: interactive prototype covering booking success, conflict and recovery
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: Build and connect the high-fidelity wellness flow across desktop and mobile widths.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: Primary task is complete; Conflict state preserves progress; Mobile layout adapts; All actions provide feedback
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

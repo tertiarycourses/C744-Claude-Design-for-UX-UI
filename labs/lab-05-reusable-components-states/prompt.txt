@@ -1,0 +1,8 @@
+Goal: component sheet and coded reference with default, focus, loading, disabled and error states
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: Turn the selected wireframe into a component system with accessible buttons, fields, cards and navigation.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: Components use tokens; Focus is visible; Loading/error states are distinct; Reuse does not create drift
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

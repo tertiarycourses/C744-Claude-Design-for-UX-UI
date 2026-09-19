@@ -1,0 +1,8 @@
+Goal: project context pack with tokens, component rules and explicit design direction
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: Create a Claude Design project and provide a compact design-system contract for the wellness product.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: Uses named tokens; Defines component variants; Includes accessibility rules; Test screen matches the system
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

@@ -1,0 +1,250 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
+>>
+endobj
+2 0 obj
+<<
+/Count 2
+/Kids [ 3 0 R 9 0 R ]
+/Type /Pages
+>>
+endobj
+3 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+4 0 obj
+<<
+/Length 4685
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7.5 Tf 9 TL ET
+.356863 .388235 .447059 rg
+BT 1 0 0 1 208.4215 28.34646 Tm (Claude Design for UX/UI \267 C744 \267 Lab 5 \267 Page 1) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 769.3701 cm
+q
+.086275 .105882 .14902 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 42.90346 0 Td (Lab 5 \227 Reusable Components and States) Tj T* -42.90346 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.35433 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sample prompts and code \267 A3 \267 LO2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 739.3701 cm
+Q
+q
+1 0 0 1 51.35433 715.3701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (prompt.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 572.3701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 130.4 Tm /F3 7.6 Tf 9.2 TL (Goal: component sheet and coded reference with default, focus, loading, disabled and error states) Tj T* (Audience: Adults using a community wellness service, including users with varied digital confidence and) Tj T* (  accessibility needs.) Tj T* (Context: Turn the selected wireframe into a component system with accessible buttons, fields, cards and) Tj T* (  navigation.) Tj T* (Required content: Use realistic service names, appointment times, success, empty, loading, permission and) Tj T* (  error states.) Tj T* (Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum) Tj T* (  targets and strong contrast.) Tj T* (Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on) Tj T* (  recoverable errors.) Tj T* (Acceptance: Components use tokens; Focus is visible; Loading/error states are distinct; Reuse does not) Tj T* (  create drift) Tj T* (Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence) Tj T* (  requested in the README.) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 564.3701 cm
+Q
+q
+1 0 0 1 51.35433 540.3701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (index.html) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 342.1701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 185.6 Tm /F3 7.6 Tf 9.2 TL (<!doctype html>) Tj T* (<html lang="en">) Tj T* (<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">) Tj T* (<title>Accessible component states</title><link rel="stylesheet" href="styles.css">) Tj T* (<main class="demo">) Tj T* (  <h1>Component state sheet</h1>) Tj T* (  <section class="card" aria-labelledby="actions-title">) Tj T* (    <h2 id="actions-title">Actions</h2>) Tj T* (    <button class="button button--primary">Book appointment</button>) Tj T* (    <button class="button button--secondary">Save for later</button>) Tj T* (    <button class="button button--primary" aria-busy="true">Saving\205</button>) Tj T* (    <button class="button button--primary" disabled>Unavailable</button>) Tj T* (  </section>) Tj T* (  <form class="card" novalidate>) Tj T* (    <div class="field"><label for="email">Work email</label><input id="email" type="email" required) Tj T* (      aria-describedby="email-help email-error"><small id="email-help">We'll send the receipt) Tj T* (      here.</small><p id="email-error" class="field__error" role="alert"></p></div>) Tj T* (    <button class="button button--primary" type="submit">Save details</button>) Tj T* (  </form>) Tj T* (</main><script src="states.js"></script>) Tj T* (</html>) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 334.1701 cm
+Q
+q
+1 0 0 1 51.35433 310.1701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (styles.css) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 56.77008 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 240.8 Tm /F3 7.6 Tf 9.2 TL (:root {) Tj T* (  --color-ink: #161b26;) Tj T* (  --color-muted: #5b6372;) Tj T* (  --color-surface: #f5f8fc;) Tj T* (  --color-action: #724cd6;) Tj T* (  --color-success: #108a73;) Tj T* (  --color-warning: #c77600;) Tj T* (  --color-error: #c2413a;) Tj T* (  --color-focus: #1f6feb;) Tj T* (  --space-1: 4px;) Tj T* (  --space-2: 8px;) Tj T* (  --space-3: 12px;) Tj T* (  --space-4: 16px;) Tj T* (  --space-6: 24px;) Tj T* (  --radius-control: 8px;) Tj T* (  --radius-card: 12px;) Tj T* (  font-family: Arial, sans-serif;) Tj T* (}) Tj T*  T* (* { box-sizing: border-box; }) Tj T* (body { margin: 0; color: var\(--color-ink\); background: #fff; }) Tj T* (button, input, select { font: inherit; }) Tj T* (.button {) Tj T* (  min-height: 44px; padding: 10px 16px; border-radius: var\(--radius-control\);) Tj T* (  border: 1px solid transparent; font-weight: 700; cursor: pointer;) Tj T* (}) Tj T* (.button--primary { background: var\(--color-action\); color: #fff; }) Tj T* ET
+Q
+ 
+
+endstream
+endobj
+5 0 obj
+<<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Contents 10 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Length 2576
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7.5 Tf 9 TL ET
+.356863 .388235 .447059 rg
+BT 1 0 0 1 208.4215 28.34646 Tm (Claude Design for UX/UI \267 C744 \267 Lab 5 \267 Page 2) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 692.1701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 93.6 Tm /F3 7.6 Tf 9.2 TL (.button--secondary { background: #fff; color: var\(--color-action\); border-color: var\(--color-action\); }) Tj T* (.button:focus-visible, input:focus-visible, select:focus-visible {) Tj T* (  outline: 3px solid var\(--color-focus\); outline-offset: 2px;) Tj T* (}) Tj T* (.button[aria-busy="true"] { cursor: progress; opacity: .78; }) Tj T* (.button:disabled { opacity: .55; cursor: not-allowed; }) Tj T* (.field { display: grid; gap: var\(--space-2\); margin-block: var\(--space-4\); }) Tj T* (.field__error { color: var\(--color-error\); font-weight: 700; }) Tj T* (.card { padding: var\(--space-4\); border: 1px solid #d7e0ea; border-radius: var\(--radius-card\); }) Tj T*  T* (.demo{display:grid;gap:20px;max-width:760px;margin:24px auto;padding:16px}.demo .card{display:grid;gap:12px}) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 684.1701 cm
+Q
+q
+1 0 0 1 51.35433 660.1701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (states.js) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 517.1701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 130.4 Tm /F3 7.6 Tf 9.2 TL (const form = document.querySelector\('form'\);) Tj T* (const email = document.querySelector\('#email'\);) Tj T* (const error = document.querySelector\('#email-error'\);) Tj T* (form?.addEventListener\('submit', \(event\) => {) Tj T* (  event.preventDefault\(\);) Tj T* (  if \(!email.validity.valid\) {) Tj T* (    error.textContent = 'Enter an email address in the format name@example.com.';) Tj T* (    email.setAttribute\('aria-invalid', 'true'\);) Tj T* (    email.focus\(\);) Tj T* (    return;) Tj T* (  }) Tj T* (  error.textContent = '';) Tj T* (  email.removeAttribute\('aria-invalid'\);) Tj T* (  form.querySelector\('button'\).textContent = 'Details saved';) Tj T* (}\);) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 509.1701 cm
+Q
+q
+1 0 0 1 51.35433 485.1701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (state-matrix.csv) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 443.3701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 29.2 Tm /F3 7.6 Tf 9.2 TL (component,default,hover,focus,loading,disabled,error) Tj T* (Button,yes,yes,yes,yes,yes,n/a) Tj T* (Field,yes,n/a,yes,n/a,yes,yes) Tj T* (Card,yes,yes,focus-within,loading,n/a,error) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 435.3701 cm
+Q
+ 
+
+endstream
+endobj
+11 0 obj
+<<
+/Author (\050anonymous\051)
+/CreationDate (D\07220260823144919\05308\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220260823144919\05308\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (\050anonymous\051)
+/Trapped /False
+>>
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000148 00000 n 
+0000000347 00000 n 
+0000005084 00000 n 
+0000005135 00000 n 
+0000005242 00000 n 
+0000005354 00000 n 
+0000005459 00000 n 
+0000005659 00000 n 
+0000008288 00000 n 
+trailer
+<<
+/Size 12
+/Root 1 0 R
+/Info 11 0 R
+/ID [ <860cafeaf8a99b2657e872f71bf6a8c7> <860cafeaf8a99b2657e872f71bf6a8c7> ]
+>>
+startxref
+8613
+%%EOF

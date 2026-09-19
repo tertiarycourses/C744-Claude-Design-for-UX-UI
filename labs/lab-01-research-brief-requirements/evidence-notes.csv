@@ -1,0 +1,4 @@
+source,observation,evidence_or_assumption,design_implication
+Interview,Users need to reschedule quickly,evidence,Keep reschedule visible
+Analytics,Mobile traffic is 72%,evidence,Design mobile-first
+Stakeholder,Users prefer gradients,assumption,Validate before using

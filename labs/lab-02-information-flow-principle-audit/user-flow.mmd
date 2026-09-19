@@ -1,0 +1,9 @@
+flowchart LR
+A[Open booking] --> B[Choose service]
+B --> C[Choose time]
+C --> D{Time available?}
+D -- Yes --> E[Review]
+E --> F[Confirm]
+D -- No --> G[Explain conflict]
+G --> C
+F --> H[Confirmation]

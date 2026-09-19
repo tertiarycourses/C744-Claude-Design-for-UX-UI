@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Accessible component states</title><link rel="stylesheet" href="styles.css">
+<main class="demo">
+  <h1>Component state sheet</h1>
+  <section class="card" aria-labelledby="actions-title">
+    <h2 id="actions-title">Actions</h2>
+    <button class="button button--primary">Book appointment</button>
+    <button class="button button--secondary">Save for later</button>
+    <button class="button button--primary" aria-busy="true">Saving…</button>
+    <button class="button button--primary" disabled>Unavailable</button>
+  </section>
+  <form class="card" novalidate>
+    <div class="field"><label for="email">Work email</label><input id="email" type="email" required aria-describedby="email-help email-error"><small id="email-help">We'll send the receipt here.</small><p id="email-error" class="field__error" role="alert"></p></div>
+    <button class="button button--primary" type="submit">Save details</button>
+  </form>
+</main><script src="states.js"></script>
+</html>

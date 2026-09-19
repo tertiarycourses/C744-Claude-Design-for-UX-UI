@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "name": "Counselling",
+      "duration": "50 min"
+    },
+    {
+      "name": "Nutrition consultation",
+      "duration": "45 min"
+    },
+    {
+      "name": "Wellness check",
+      "duration": "30 min"
+    }
+  ],
+  "states": [
+    "loading",
+    "empty",
+    "conflict",
+    "success"
+  ]
+}

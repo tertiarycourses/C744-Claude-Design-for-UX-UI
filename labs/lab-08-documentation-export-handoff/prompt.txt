@@ -1,0 +1,8 @@
+Goal: versioned export bundle, decision log, handoff brief and task-based user guide
+Audience: Adults using a community wellness service, including users with varied digital confidence and accessibility needs.
+Context: Prepare the final prototype for stakeholder review, developer handoff and end-user guidance.
+Required content: Use realistic service names, appointment times, success, empty, loading, permission and error states.
+Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum targets and strong contrast.
+Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on recoverable errors.
+Acceptance: Change log explains rationale; Export matches downstream need; Guide supports a real task; Handoff includes states and acceptance
+Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence requested in the README.

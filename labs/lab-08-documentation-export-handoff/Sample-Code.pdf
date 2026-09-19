@@ -1,0 +1,212 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/PageMode /UseNone
+/Pages 2 0 R
+/Type /Catalog
+>>
+endobj
+2 0 obj
+<<
+/Count 1
+/Kids [ 3 0 R ]
+/Type /Pages
+>>
+endobj
+3 0 obj
+<<
+/Contents 4 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Parent 2 0 R
+/Resources <<
+/Font 5 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+>>
+endobj
+4 0 obj
+<<
+/Length 4409
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 7.5 Tf 9 TL ET
+.356863 .388235 .447059 rg
+BT 1 0 0 1 208.4215 28.34646 Tm (Claude Design for UX/UI \267 C744 \267 Lab 8 \267 Page 1) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 769.3701 cm
+q
+.086275 .105882 .14902 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 33.48346 0 Td (Lab 8 \227 Documentation, Export and Handoff) Tj T* -33.48346 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.35433 747.3701 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Sample prompts and code \267 A6 \267 A7 \267 LO4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 739.3701 cm
+Q
+q
+1 0 0 1 51.35433 715.3701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (prompt.txt) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 581.5701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 121.2 Tm /F3 7.6 Tf 9.2 TL (Goal: versioned export bundle, decision log, handoff brief and task-based user guide) Tj T* (Audience: Adults using a community wellness service, including users with varied digital confidence and) Tj T* (  accessibility needs.) Tj T* (Context: Prepare the final prototype for stakeholder review, developer handoff and end-user guidance.) Tj T* (Required content: Use realistic service names, appointment times, success, empty, loading, permission and) Tj T* (  error states.) Tj T* (Design system: Use the supplied tokens and component rules. Prefer clear labels, visible focus, 44px minimum) Tj T* (  targets and strong contrast.) Tj T* (Constraints: Mobile-first; no lorem ipsum; one dominant primary action per screen; preserve user input on) Tj T* (  recoverable errors.) Tj T* (Acceptance: Change log explains rationale; Export matches downstream need; Guide supports a real task;) Tj T* (  Handoff includes states and acceptance) Tj T* (Output: Create the named design in Claude Design, save a version checkpoint and export or share the evidence) Tj T* (  requested in the README.) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 573.5701 cm
+Q
+q
+1 0 0 1 51.35433 549.5701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (CHANGELOG.md) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 489.3701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 47.6 Tm /F3 7.6 Tf 9.2 TL (# Changelog) Tj T*  T* (## v1.1 \227 23 August 2026) Tj T* (- Improved unavailable-time recovery based on Lab 7 evidence.) Tj T* (- Preserved selected service and moved focus to the time field.) Tj T* (- Added a plain-language error and suggested next action.) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 481.3701 cm
+Q
+q
+1 0 0 1 51.35433 457.3701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (HANDOFF.md) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 332.7701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 112 Tm /F3 7.6 Tf 9.2 TL (# Handoff) Tj T*  T* (## User goal) Tj T* (Book or reschedule an appointment with recoverable conflicts.) Tj T*  T* (## Design system) Tj T* (Use tokens.css and the component state matrix from Lab 5.) Tj T*  T* (## Required states) Tj T* (Loading, empty, unavailable time, success, permission denied.) Tj T*  T* (## Acceptance) Tj T* (Keyboard complete; visible focus; selection preserved; status announced; mobile and desktop verified.) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 324.7701 cm
+Q
+q
+1 0 0 1 51.35433 300.7701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (USER-GUIDE.md) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 222.1701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 66 Tm /F3 7.6 Tf 9.2 TL (# Book an appointment) Tj T*  T* (1. Choose a service and an available time.) Tj T* (2. Review your selection and choose **Confirm booking**.) Tj T* (3. Check for the confirmation message.) Tj T*  T* (If the selected time becomes unavailable, choose another suggested time. Your service selection remains) Tj T* (  saved.) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 214.1701 cm
+Q
+q
+1 0 0 1 51.35433 190.1701 cm
+q
+.447059 .298039 .839216 rg
+BT 1 0 0 1 0 3 Tm /F2 13 Tf 16 TL (export-checklist.md) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.35433 102.3701 cm
+%PreformattedPara
+.043137 .070588 .12549 rg
+BT 1 0 0 1 2 75.2 Tm /F3 7.6 Tf 9.2 TL (# Export checklist) Tj T*  T* (- [ ] Named version checkpoint saved) Tj T* (- [ ] Sensitive data removed) Tj T* (- [ ] Correct downstream format selected) Tj T* (- [ ] States and responsive views included) Tj T* (- [ ] Design-system files included) Tj T* (- [ ] Decision log and user guide included) Tj T* (- [ ] Export opened and verified) Tj T* ET
+Q
+q
+1 0 0 1 51.35433 94.37008 cm
+Q
+ 
+
+endstream
+endobj
+5 0 obj
+<<
+/F1 6 0 R
+/F2 7 0 R
+/F3 8 0 R
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Author (\050anonymous\051)
+/CreationDate (D\07220260823144919\05308\04700\047)
+/Creator (\050unspecified\051)
+/Keywords ()
+/ModDate (D\07220260823144919\05308\04700\047)
+/Producer (ReportLab PDF Library \055 \050opensource\051)
+/Subject (\050unspecified\051)
+/Title (\050anonymous\051)
+/Trapped /False
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000142 00000 n 
+0000000341 00000 n 
+0000004802 00000 n 
+0000004853 00000 n 
+0000004960 00000 n 
+0000005072 00000 n 
+0000005177 00000 n 
+trailer
+<<
+/Size 10
+/Root 1 0 R
+/Info 9 0 R
+/ID [ <035da235d7ce24392ee88ea106d53776> <035da235d7ce24392ee88ea106d53776> ]
+>>
+startxref
+5501
+%%EOF
