@@ -1,8 +1,8 @@
 # Lab 2 — Information Flow and Principle Audit
 
 Course: Claude Design for UX/UI (C744)
-Duration: 60 minutes
-Alignment: A2 · K1 · K3 · LO1
+Duration: 25 minutes
+Alignment: LO1
 
 ## Scenario
 
@@ -31,7 +31,7 @@ Create a complete user flow with exception states and a prioritised UI audit.
 8. Use chat for broad changes, inline comments for local issues and direct edits for deterministic text corrections.
 9. Create a named version checkpoint before making the final evidence-led refinement.
 10. Check every acceptance criterion and correct any failure before export.
-11. Export or share the final design and capture the named evidence in this folder or the assessment document.
+11. Export or share the final design and capture the named evidence in this folder.
 12. Complete the reflection: what changed, why it changed and what evidence supports the decision.
 
 ## Acceptance checklist

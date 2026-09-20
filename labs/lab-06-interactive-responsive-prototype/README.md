@@ -1,8 +1,8 @@
 # Lab 6 — Interactive Responsive Prototype
 
 Course: Claude Design for UX/UI (C744)
-Duration: 45 minutes
-Alignment: A4 · LO3
+Duration: 25 minutes
+Alignment: LO3
 
 ## Scenario
 
@@ -33,7 +33,7 @@ Create a interactive prototype covering booking success, conflict and recovery.
 8. Use chat for broad changes, inline comments for local issues and direct edits for deterministic text corrections.
 9. Create a named version checkpoint before making the final evidence-led refinement.
 10. Check every acceptance criterion and correct any failure before export.
-11. Export or share the final design and capture the named evidence in this folder or the assessment document.
+11. Export or share the final design and capture the named evidence in this folder.
 12. Complete the reflection: what changed, why it changed and what evidence supports the decision.
 
 ## Acceptance checklist
